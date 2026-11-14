@@ -7,6 +7,14 @@ X-PrivScore combines federated training with uniform-q record-level
 DP-SGD (Opacus), Adaptive Mask Rotation (AMR) secure aggregation, and
 coordinate-wise trimmed-mean aggregation for Byzantine robustness.
 
+## Earlier version
+
+An earlier prototype of this project (May 2026: Tab-Transformer as the
+main model, FedAvg aggregation, batch-level gradient noise without a
+privacy accountant) is kept on the `legacy-v1` branch. It does not
+implement the method or produce the results reported in the paper;
+use the code on `main`.
+
 ## Layout
 
 ```
