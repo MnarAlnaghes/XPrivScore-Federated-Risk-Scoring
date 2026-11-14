@@ -1,0 +1,86 @@
+{
+  "summary": {
+    "config": {
+      "dataset": "ulb",
+      "model": "mlp",
+      "sigma": null,
+      "T": 200,
+      "E": 2,
+      "attack": "scaling",
+      "aggregation": "fedavg"
+    },
+    "n_seeds": 3,
+    "f1": {
+      "mean": 0.16390614876419293,
+      "std": 0.2269405022150548
+    },
+    "auc": {
+      "mean": 0.6554871702479529,
+      "std": 0.2198920649396693
+    },
+    "pr_auc": {
+      "mean": 0.15383461476629323,
+      "std": 0.21512192161692198
+    },
+    "precision": {
+      "mean": 0.2001519385971026,
+      "std": 0.2806245091512792
+    },
+    "recall": {
+      "mean": 0.8027210884353742,
+      "std": 0.2789945123048963
+    },
+    "accuracy": {
+      "mean": 0.3339828891775803,
+      "std": 0.4698900545274743
+    },
+    "epsilon_worst_case": null,
+    "mi_attack_auc": {
+      "mean": 0.5054119166666666,
+      "std": 0.007791232810781953
+    },
+    "explanation_coverage": {
+      "mean": 0.43333333333333335,
+      "std": 0.06236095644623237
+    },
+    "spearman_rho": {
+      "mean": -0.1282611165613902,
+      "std": 0.08930107494750589
+    }
+  },
+  "per_seed": [
+    {
+      "threshold": 1.0,
+      "auc": 0.5,
+      "pr_auc": 0.0017204452090867595,
+      "f1": 0.003434980722046968,
+      "precision": 0.0017204452090867595,
+      "recall": 1.0,
+      "accuracy": 0.0017204452090867595,
+      "epsilon_worst": null,
+      "epsilon_per_client": null
+    },
+    {
+      "threshold": 0.6195266041755695,
+      "auc": 0.9664615107438586,
+      "pr_auc": 0.45806295388070617,
+      "f1": 0.48484848484848486,
+      "precision": 0.5970149253731343,
+      "recall": 0.40816326530612246,
+      "accuracy": 0.9985077771145676,
+      "epsilon_worst": null,
+      "epsilon_per_client": null
+    },
+    {
+      "threshold": 1.0,
+      "auc": 0.5,
+      "pr_auc": 0.0017204452090867595,
+      "f1": 0.003434980722046968,
+      "precision": 0.0017204452090867595,
+      "recall": 1.0,
+      "accuracy": 0.0017204452090867595,
+      "epsilon_worst": null,
+      "epsilon_per_client": null
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "correctness_max_abs_error_d18000_1000_aggregations": 1.0045297926808416e-12,
+  "collusion_N10_k5_R6": {
+    "trials": 100000,
+    "seed": 0,
+    "empirical": 0.01437,
+    "bound_(k/N)^R": 0.015625
+  },
+  "collusion_N10_k5_R6_1e6": {
+    "trials": 1000000,
+    "seed": 1,
+    "empirical": 0.015774
+  },
+  "latency_ms": {
+    "4000": {
+      "amr": 11.93302504999565,
+      "pairwise": 60.36795969999072,
+      "ratio": 0.1976714984123852
+    },
+    "18000": {
+      "amr": 81.92500985000493,
+      "pairwise": 359.9039381500259,
+      "ratio": 0.22763021230363556
+    }
+  }
+}

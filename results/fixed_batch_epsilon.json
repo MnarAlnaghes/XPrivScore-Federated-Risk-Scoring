@@ -1,0 +1,41 @@
+{
+  "ulb": {
+    "smallest_client": 940,
+    "fixed_batch": {
+      "q": 0.13617021276595745,
+      "steps": 4800,
+      "epsilon": 98.54155663310311
+    },
+    "uniform_q": {
+      "q": 0.05,
+      "steps": 8000,
+      "epsilon": 4.784858090590746
+    }
+  },
+  "ieee": {
+    "smallest_client": 13559,
+    "fixed_batch": {
+      "q": 0.009440224205324876,
+      "steps": 63600,
+      "epsilon": 13.409092747189543
+    },
+    "uniform_q": {
+      "q": 0.05,
+      "steps": 8000,
+      "epsilon": 4.784858090590746
+    }
+  },
+  "elliptic": {
+    "smallest_client": 441,
+    "fixed_batch": {
+      "q": 0.29024943310657597,
+      "steps": 2400,
+      "epsilon": 203.46976503913822
+    },
+    "uniform_q": {
+      "q": 0.05,
+      "steps": 8000,
+      "epsilon": 4.784858090590746
+    }
+  }
+}
