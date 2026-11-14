@@ -5,3 +5,4 @@ scikit-learn>=1.4
 pandas>=2.0
 scipy>=1.11
 numpy>=1.26
+dp-accounting>=0.4
